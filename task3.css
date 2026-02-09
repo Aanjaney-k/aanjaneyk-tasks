@@ -1,0 +1,12 @@
+body{
+    margin:0;
+}
+
+.container{
+    display:flex;
+    margin:10px;
+    justify-content: space-between;
+    background-color: rgb(130, 126, 122);
+    text-align: center;
+    padding: 10px;
+}
