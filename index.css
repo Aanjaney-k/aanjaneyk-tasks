@@ -1,6 +1,6 @@
 body{
     margin:0;
-    font-family: cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(222, 186, 137);
 }
 
@@ -51,4 +51,5 @@ h1{
     width: 100%;
     text-align: center;
 }
+
 
