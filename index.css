@@ -1,0 +1,54 @@
+body{
+    margin:0;
+    font-family: cursive;
+    background-color: rgb(222, 186, 137);
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    background: linear-gradient(to right,rgb(201, 135, 42),rgb(178, 153, 97));
+    position: fixed;
+    width:100%;
+    z-index: 1000;
+    top: 0;
+    padding: 0 20px; 
+    box-sizing: border-box;
+}
+
+.tasks{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: space-evenly;
+    gap:100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+
+button{
+    background: linear-gradient(to right,rgb(153, 95, 13),rgb(210, 184, 128));
+    color: black;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+button:hover{
+    background: linear-gradient(to right,rgb(157, 120, 67),rgb(145, 137, 119));
+    color: white;
+    border: none;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+h1{
+    position: fixed;
+    top: 100px;
+    width: 100%;
+    text-align: center;
+}
+
