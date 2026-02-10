@@ -1,0 +1,26 @@
+body{
+    margin:10px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: min-content max-content auto;
+    gap: 10px;
+    padding:10px;
+    border: 1px solid black;
+}
+
+.small{
+    background-color: brown;
+    border: 1px solid black;
+}
+
+.content{
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+.auto{
+    background-color: rgb(115, 71, 156);
+    border: 1px solid black;
+}

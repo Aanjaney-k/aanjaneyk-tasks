@@ -1,0 +1,15 @@
+body{
+    margin: 10px;
+}
+
+.container{
+    display:flex;
+    align-items:center;
+    background-color: bisque;
+    height: 50%;
+}
+
+.item{
+    padding: 10px;
+    background-color: aquamarine;
+}

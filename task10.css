@@ -1,0 +1,51 @@
+body{
+    margin: 10px;
+}
+
+.container{
+    display:grid;
+    grid-template-areas: "header header header" "nav main aside" "footer footer footer";
+    grid-template-columns: auto 1fr auto;
+}
+
+.header{
+    grid-area: header;
+    padding:10px;
+    background-color: rgb(111, 170, 221);
+    
+}
+
+.nav{
+    grid-area: nav;
+    background-color: rgb(114, 114, 114);
+    color: white;
+    height: 500px;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+}
+
+.main{
+    grid-area: main;
+    background-color: rgb(50, 53, 53);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+}
+
+.aside{
+    grid-area: aside;
+    background-color: rgb(95, 94, 93);
+    padding: 10px;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: rgb(36, 41, 44);
+    color: white;
+    padding: 10px;
+}

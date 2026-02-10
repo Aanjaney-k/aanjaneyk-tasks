@@ -1,0 +1,17 @@
+body{
+    margin: 10px;
+}
+
+.container{
+    display:grid;
+    background-color: blanchedalmond;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.item{
+    background-color: aqua;
+    color:black;
+    padding: 10px;
+}
