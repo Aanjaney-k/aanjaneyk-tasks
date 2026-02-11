@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    background-color: rgb(197, 218, 236);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(140, 183, 218);
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:rgb(0, 0, 0)
+}
+
+.navbar div{
+    display: flex;
+    justify-content: space-between;
+    gap:40px;
+}
+
+.navbar button{
+    background-color: rgb(63, 161, 200);
+    border:none;
+    border-radius: 5px;
+    padding: 5px;
+    width:50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar.button:hover{
+    border: none;
+    transition: 0.3s;
+}
+
+.header{
+    padding:100px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.header h1{
+    font-size: 72px;
+    background: linear-gradient(to right,rgb(47, 90, 169),rgb(53, 159, 208));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header h4{
+    font-weight: lighter;
+    font-size: 24px;
+    color: grey;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.btn button{
+    width:200px;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.prop{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+    padding: 100px;
+    gap:30px;
+}
+
+.item button{
+    width:300px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    background-color: rgb(112, 132, 149);
+    color: aliceblue;
+    font-size: 18px;
+    transition: 0.3s;
+    border: none    ;
+}
+
+button:hover{
+    background-color: rgb(93, 153, 197);
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+.getstarted{
+    background-color:rgb(79, 123, 181);
+    color: aliceblue;
+    border: none;
+    transition: 0.3s;
+}
+
+.viewdemo{
+    background-color:rgb(154, 175, 188);
+    border: none;
+    transition: 0.3s;
+}
