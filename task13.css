@@ -95,6 +95,15 @@ body{
     cursor: pointer;
 }
 
+.menu-itemactive{
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    background: #334155;
+}
+
 .menu-item:hover { 
     background: #334155; 
     color: white; 
