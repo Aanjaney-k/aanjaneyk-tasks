@@ -1,0 +1,77 @@
+body{
+    margin:0;
+}
+
+.main{
+    display: flex;
+}
+
+.text{
+    justify-items: center;
+    align-content: center;
+    width: 50%;
+    background: linear-gradient(to right,rgb(11, 174, 249),rgb(129, 194, 175));
+    color: rgb(246, 251, 255);
+    height: 100vh;
+}
+
+.text h1{
+    font-size: 64px;
+}
+
+.login{
+    flex: 1;
+    background-color: rgb(69, 153, 170);
+    color: rgb(34, 35, 35);
+    justify-items: center;
+    align-content: center;
+}
+
+.login input,button{
+    width: 280px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.login button{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(10, 97, 138);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.login button:hover{
+    border-radius: 15px;
+    background-color: rgb(16, 63, 84);
+    transition: 0.5s;
+}
+
+.login h1{
+    font-size: 32px;
+}
+
+.login h2{
+    font-size: 16px;
+}
+
+.link{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.link button{
+    width:75px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.link button:hover{
+    border-radius: 15px;
+    transition: 0.5s;
+}

@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    background-color: rgb(217, 183, 142);
+}
+
+.navbar{
+    display: flex;
+    font-size: 18px;
+    width: 100%;
+    position: fixed;
+    background-color: blanchedalmond;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar button{
+    width:80px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px gray;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.navbar button:hover{
+    background-color: rgb(94, 101, 101);
+    color: white;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(12, 60, 119);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+}
+
+.main{
+    margin-top: 55px;
+    display: flex;
+    height: 70vh;
+}
+
+.content{
+    background-color: rgb(185, 180, 138);
+    width: 50%;
+    align-content: center;
+    padding-left: 100px;
+}
+
+.content h1{
+    font-size: 64px;
+}
+
+.content h2{
+    font-size: 16px;
+}
+
+.content button{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(250, 250, 191);
+    border: none;
+    box-shadow: 0px 4px 10px gray;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.content button:hover{
+    background-color: rgb(94, 101, 101);
+    color: white;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+button.bt1{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(239, 239, 91);
+    border: none;
+    box-shadow: 0px 4px 10px gray;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.overlay{
+    flex: 1;
+    background-color: rgb(185, 180, 138);
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    position: relative;
+}
+
+.card1{
+    position: absolute;
+    width: 200px;
+    height: 130px;
+    background: linear-gradient(to right,rgb(226, 226, 86),rgb(244, 244, 244));
+    border-radius: 20px;
+    top: 150px;
+    left: 170px;
+    z-index: 1;
+    box-shadow: 0px 4px 10px gray;
+}
+
+.card2{
+    position: absolute;
+    width: 200px;
+    height: 130px;
+    background: linear-gradient(to right,rgb(82, 134, 35),rgb(244, 244, 244));
+    border-radius: 20px;
+    top: 200px;
+    left: 250px;
+    z-index: 2;
+    box-shadow: 0px 4px 10px gray;
+}
+
+.features{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgb(185, 180, 138);
+    gap: 40px;
+    justify-items: center;
+    align-content: center;
+    height: 50vh;
+}
+
+.items{
+    font-size: 24px;
+    background-color: rgb(233, 235, 155);
+    border-radius: 10px;
+    width:300px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px gray;
+    cursor: pointer;
+}
+
+.head1{
+    color:rgb(0, 0, 0);
+}
+
+.head2{
+    font-size: 18px;
+    color: brown;
+}

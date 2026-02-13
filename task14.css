@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    background-color: rgb(225, 156, 71);
+}
+
+.container{
+    justify-items: center;
+    align-content: center;
+    height: 100vh;
+}
+
+img{
+    width:200px;
+    height:170px;
+    border-radius: 10px;
+}
+
+.card{
+    width: 200px;
+    height:300px;
+    border-radius: 10px;
+    background-color: bisque;
+    padding: 10px;
+    text-align: center;
+}
+
+.songname{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.art{
+    font-size: 16px;
+}
+
+.music{
+    padding: 15px;
+}
+
+.music img{
+    width:30px;
+    height:30px;
+}
+
+.music button{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.music button:active {
+    background-color: rgb(138, 137, 137);
+}

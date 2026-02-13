@@ -16,16 +16,25 @@ body{
     box-sizing: border-box;
 }
 
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
 .tasks{
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    justify-content: space-evenly;
-    gap:100px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} 
+    gap: 40px;
+    justify-items: center;
+}
+
+.templates-gallery{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 40px;
+    justify-items: center;
+}
+
 
 button{
     background: linear-gradient(to right,rgb(153, 95, 13),rgb(210, 184, 128));
@@ -46,9 +55,6 @@ button:hover{
 }
 
 h1{
-    position: fixed;
-    top: 100px;
-    width: 100%;
     text-align: center;
+    margin-top: 120px; 
 }
-
