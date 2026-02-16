@@ -1,0 +1,196 @@
+body{
+    margin :0px;
+    background-color: rgb(0, 0, 0);
+}
+
+.main{
+    display: flex;
+    width:100%;
+    height:90vh;
+    background-color: rgb(4, 4, 4);
+}
+
+.video{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color:grey;
+    text-align: center;
+    align-content: center;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.clips{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    background-color: rgb(0, 0, 0);
+    gap: 10px;
+}
+
+.item{
+    background-color: grey;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 150px;
+    height:70px;
+    cursor: pointer;
+}
+
+.names{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.items{
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 150px;
+    color: white;
+}
+
+.desc{
+    color: white;
+}
+
+.tagline{
+    margin-left: 20px;
+    font-size: 34px;
+    font-weight: bold;
+    color: white;
+}
+
+.views{
+    font-size: 18px;
+    margin-left: 20px;
+    color: grey;
+}
+
+.activity{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    gap: 20px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.i1{
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(26, 56, 82);
+    background-color: grey;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.tag{
+    background-color: rgb(0, 0, 0);
+}
+
+.subs{
+    display: flex;
+    margin-left: 20px;
+    color: white;
+    background-color: rgb(114, 60, 60);
+    justify-content: space-between;
+    width: 75%;
+    border-bottom: 1px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.logos{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.logo{
+    width:40px;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.sub{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    text-align: center;
+    width: 100px;
+}
+
+button{
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+    width: 100px;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: rgb(215, 88, 88);
+    border-radius: 20px;
+    color: white;
+    transition: 0.3s;
+}
+
+.comments{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+.user{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.profile{
+    width: 30px;
+    border-radius: 40px;
+    height: 30px;
+    background-color:grey;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.cm{
+    font-size: 18px;
+    font-weight: bold;
+}
+.users{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.texts{
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    cursor: pointer;
+}
