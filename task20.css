@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(to right,rgb(54, 83, 116),rgb(127, 179, 224));
+    color: white;
+}
+
+.sidebar {
+    height: 100vh;
+    background-color: #0f376b;
+}
+
+.sidebar a {
+    display: flex;
+    flex-direction: column;
+    color: #bbb;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.sidebar a:hover,.sidebar .active {
+    background-color: #262d30;
+    color: white;
+    border-left: 2px solid black;
+}
+
+.content-box {
+    background-color: #0f376b;
+    width: 100%;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form-control {
+    background: #3968a6;
+    border: none;
+    color: white;
+}
