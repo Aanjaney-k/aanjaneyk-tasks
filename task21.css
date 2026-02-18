@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: monospace;
+}
+
+pre{
+    color: azure;
+}
+
+.bg-custom{
+    background-color: rgb(31, 30, 30);
+}
+
+.bg-back{
+    background-color: rgb(60, 60, 60);
+}
+
+.bg-sidebar{
+    background-color: rgb(66, 63, 63);
+    color: white;
+}
+.sidebar{
+    cursor: pointer;
+}
+
+.bg-sidenav{
+    background-color: rgb(94, 57, 128);
+}
+
+.sidebar:hover{
+    background-color: rgb(84, 86, 89);
+}
+
+.sidebar.active{
+    background-color: rgb(84, 86, 89);
+}
+
+.bg-footer{
+    background-color: rgb(67, 106, 143);
+}

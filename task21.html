@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="task21.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-1 d-flex flex-column bg-sidenav w-auto vh-100 fs-2 justify-content-between">
+                    <div>
+                        <div style="cursor: pointer;">📄</div>
+                        <div style="cursor: pointer;">🔍</div>
+                        <div style="cursor: pointer;">🌿</div>
+                    </div>
+                    <div>
+                        <div style="cursor: pointer;">⚙️</div>
+                    </div>
+                </div>
+
+                <div class="col-1 bg-sidebar w-auto vh-100">
+                    <small><div class="font-monospace">EXPLORER</div></small>
+                    <ul class="list-unstyled">
+                        <strong><li class="sidebar"> ▼ PROJECT ROOT</li></strong>
+                        <li class="sidebar"> ➤ src</li>
+                        <li class="sidebar"> ➤ components</li>
+                        <li class="sidebar active"><span style="color: yellow;">JS</span> App.js</li>
+                        <li class="sidebar"><span style="color: rgb(181, 91, 208);">#</span> styles.css</li>
+                        <li class="sidebar">{} package.json</li>
+                    </ul>
+                </div>
+                    
+
+                
+                <div class="col d-flex flex-column bg-back p-0">
+
+                    <div class="d-flex">
+
+                        <div class="px-3 py-2 bg-custom text-white border-top border-primary" style="cursor: pointer;">
+                            <span style="color: yellow;">JS</span> App.js <span class="ms-2">×</span>
+                        </div>
+
+                        <div class="px-3 py-2 text-white-50" style="cursor: pointer;">
+                            <span style="color: rgb(199, 101, 229);">#</span> styles.css <span class="ms-2">×</span>
+                        </div>
+
+                    </div>
+                    
+                    <div class="flex-grow-1 bg-custom">
+
+<pre>
+ 1   import React from 'react';
+ 2
+ 3   function App() {
+ 4       return (
+ 5           Hello World
+ 6       );
+ 7   }
+</pre>
+
+                    </div>
+                    <div class="d-flex bg-footer justify-content-between">
+                        <div class="d-flex gap-3 fs-6 text-white">
+                            <div>main*</div>
+                            <div>0 errors</div>
+                        </div>
+                        <div class="d-flex gap-3 text-white">
+                            <div>Ln 5</div>
+                            <div>Col 12</div>
+                            <div>UTF-8</div> 
+                            <div>JavaScript</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
