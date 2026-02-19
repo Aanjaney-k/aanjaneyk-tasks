@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+
+.bg-nav{
+    background-color: rgb(255, 196, 0);
+    font-weight: bolder;
+    font-size: 32px;
+    box-sizing: border-box;
+}
+
+.bg-back{
+    background-color: rgb(206, 153, 88);
+}
