@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="calculator.css">
+    </head>
+    <script src="calc.js"></script>
+    <body class="m-0 bg-info d-flex justify-content-center align-items-center">
+        <div class="d-flex flex-column gap-3 calc p-3 text-center">
+            <h1>CALCULATOR</h1>
+            <div><input type="number" id="num1" placeholder="Number 1"></div>
+            <div><input type="number" id="num2" placeholder="Number 2"></div>
+            <div class="d-flex gap-3 justify-content-evenly">
+                <div><button class="btn btn-info text-dark fw-bold fs-4" onclick="add();">+</button></div>
+                <div><button class="btn btn-primary text-dark fw-bold fs-4" onclick="sub();">-</button></div>
+                <div><button class="btn btn-success text-dark fw-bold fs-4" onclick="mul();">x</button></div>
+                <div><button class="btn btn-warning text-dark fw-bold fs-4" onclick="div();">/</button></div>
+            </div>
+            <div><input type="text" id="res" placeholder="Result" readonly></div>
+        </div>
+    </body>
+</html>
