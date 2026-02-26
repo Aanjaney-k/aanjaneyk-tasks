@@ -1,0 +1,40 @@
+.card{
+    width: 600px;
+    height: 300px;
+    background-color: rgb(66, 58, 47);
+    box-shadow: 0 0 10px 2px;
+}
+body{
+    background: linear-gradient(to bottom,rgb(145, 131, 68),rgb(172, 161, 103));
+
+}
+
+.bg-custom{
+    background-color: #f3bc07;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.bg-custom:hover{
+    background-color: #c19b1e;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+h3{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+}
+
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+}
