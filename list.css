@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background-color: #0f172a;
+    font-family: 'Segoe UI', sans-serif;
+    color: #e2e8f0;
+}
+
+.container-fluid{
+    padding: 10;
+    height: 100vh;
+    background-color: #5c5219;
+}
+
+.list-container {
+    width: 100%;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    padding: 18px 20px;
+    background-color: #c08c13;
+    border-radius: 5px;
+    border-left: 5px solid #312a12;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #000000;
+    transition: 0.2s;
+}
+
+.list-item:hover {
+    background-color: #655d1f;
+}
