@@ -1,0 +1,20 @@
+<html>
+<head>
+  <title>Local Storage Todo</title>
+  <link rel="stylesheet" href="localstorage.css">
+    
+</head>
+<body>
+  <div class="container">
+    <h2>📝 Local Storage Todo</h2>
+    <div class="input-row">
+      <input type="text" id="todoInput" placeholder="Enter a todo..." />
+      <button onclick="saveTodo()">Save</button>
+    </div>
+    <div class="saved">Saved: <span id="lastSaved">None</span></div>
+    <ul id="todoList"></ul>
+  </div>
+
+  <script src="localstorage.js"></script>
+</body>
+</html>
