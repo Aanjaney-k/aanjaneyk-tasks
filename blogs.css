@@ -1,0 +1,36 @@
+body{
+margin-top: 70px;
+background:#456a8a;
+}
+
+.card{
+background: linear-gradient(to right,rgb(124, 160, 157),rgb(141, 255, 234));
+border-radius:10px;
+box-shadow: #000000 0 0 10px 5px;
+
+}
+
+h1,h2{
+
+font-weight:bold;
+
+}
+
+.btn-custom{
+    background-color: rgb(58, 93, 96);
+    color: white;
+}
+
+.btn-custom:hover{
+    background-color: rgb(95, 152, 157);
+    color: white;
+}
+
+.nav{
+    background-color: #81a7c9;
+    top: 0;
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
